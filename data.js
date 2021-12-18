@@ -93,7 +93,7 @@ const opdrachten = [
     {
         titel: "Portfolio",
         plaatje: "./images/portfolio.jpg",
-        website: "https://sanders-opdrachten.netlify.app/",
+        website: "https://sandermeijer.netlify.app/",
         github: "https://github.com/sandermeijer1972/opdrachten_winc",
         tekst: "Ook de code van deze portfolio-pagina deel ik hier. Ik kijk graag naar filmpjes van Kevin Powell, de CSS-koning. Ik hou zelf ook veel van CSS, je raakt daarbij nooit uitgekeken op de mogelijkheden, en elke dag ontdek je wel weer wat nieuws."
     },    
