@@ -27,7 +27,7 @@ h1 {
     font-family: 'Kalam', cursive;
 }
 
-.container {
+nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -35,7 +35,7 @@ h1 {
     max-width: 1300px;
 }
 
-.tekst {
+.text {
     font-size: 22px;
     color: black;
     margin: 2px 7px;    
@@ -43,15 +43,15 @@ h1 {
     border-radius: 3px;
 }
 
-.tekst:nth-child(odd) {
+.text:nth-child(odd) {
     background-color: #b3b3b3;
 }
 
-.tekst:nth-child(even) {
+.text:nth-child(even) {
     background-color: #bfbfbf;
 }
 
-.tekst:hover {
+.text:hover {
     background-color: #cccccc;
     cursor: pointer;
     font-size: 24px;
