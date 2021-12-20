@@ -1,18 +1,18 @@
 const info = document.getElementById("info");
-const uitleg = document.getElementById("uitleg");
+const explanation = document.getElementById("explanation");
 
 const showInfo = (number) => {
     info.innerHTML = "";
-    uitleg.innerHTML = "";
-    const newDivNaam = document.createElement('div');
-    newDivNaam.classList.add("naam");
-    newDivNaam.innerText = opdrachten[number].titel;
-    info.appendChild(newDivNaam);
+    explanation.innerHTML = "";
+    const newDivName = document.createElement('div');
+    newDivName.classList.add("name");
+    newDivName.innerText = assignments[number].title;
+    info.appendChild(newDivName);
     const newDivScreen = document.createElement('div');
     newDivScreen.classList.add("screen");
     const newImg = document.createElement('img');
     newImg.alt = "screenshot";
-    newImg.src = opdrachten[number].plaatje;
+    newImg.src = assignments[number].image;
     newDivScreen.appendChild(newImg);
     info.appendChild(newDivScreen);
     const newDivLinks = document.createElement('div');
@@ -21,19 +21,19 @@ const showInfo = (number) => {
     newAWebsite.classList.add("website");
     newAWebsite.innerText = "website";
     newAWebsite.target = "_blank";
-    newAWebsite.href = opdrachten[number].website;
+    newAWebsite.href = assignments[number].website;
     newDivLinks.appendChild(newAWebsite);
     const newAGithub = document.createElement('a');
     newAGithub.classList.add("code");
     newAGithub.innerText = "code";
     newAGithub.target = "_blank";
-    newAGithub.href = opdrachten[number].github;
+    newAGithub.href = assignments[number].github;
     newDivLinks.appendChild(newAGithub);
     info.appendChild(newDivLinks);
     const newDivProgs = document.createElement('div');
     newDivProgs.classList.add("progs");
-    const programma = opdrachten[number].programma;
-    programma.forEach(item => {
+    const program = assignments[number].programs;
+    program.forEach(item => {
         if (item === "jest") {
             const newIcon = document.createElement('img');
             newIcon.src = "./images/jest.svg";
@@ -58,12 +58,12 @@ const showInfo = (number) => {
         };
     });
     info.appendChild(newDivProgs);
-    uitleg.innerText = opdrachten[number].tekst;
+    explanation.innerText = assignments[number].text;
     
 };
 
-const vlag = document.getElementById("vlag");
-vlag.addEventListener("click", () => {
+const flag = document.getElementById("flag");
+flag.addEventListener("click", () => {
     showInfo(0);
 });
 
@@ -72,18 +72,18 @@ benno.addEventListener("click", () => {
     showInfo(1);
 });
 
-const kleur = document.getElementById("kleur");
-kleur.addEventListener("click", () => {
+const colour = document.getElementById("colour");
+colour.addEventListener("click", () => {
     showInfo(2);
 });
 
-const film = document.getElementById("film");
-film.addEventListener("click", () => {
+const movie = document.getElementById("movie");
+movie.addEventListener("click", () => {
     showInfo(3);
 });
 
-const boten = document.getElementById("boten");
-boten.addEventListener("click", () => {
+const boats = document.getElementById("boats");
+boats.addEventListener("click", () => {
     showInfo(4);
 });
 
@@ -107,8 +107,8 @@ todo.addEventListener("click", () => {
     showInfo(8);
 });
 
-const groentetuin = document.getElementById("groentetuin");
-groentetuin.addEventListener("click", () => {
+const grow = document.getElementById("grow");
+grow.addEventListener("click", () => {
     showInfo(9);
 });
 
