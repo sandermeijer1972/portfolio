@@ -30,7 +30,8 @@ h1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 50px 25px 0;
+    margin: 50px auto 0;
+    max-width: 1300px;
 }
 
 .tekst {
@@ -83,20 +84,23 @@ h1 {
 }
 
 .midden {
-    width: 45%;
+    width: 35%;    
+}
+
+#info {
     margin-top: 30px;
     padding: 10px;
     border: 5px solid black;
     background-color: #f2f2f2;
     display: grid;
-    grid-template: auto auto 1fr / 70% 30%;
+    grid-template: auto auto 1fr / 90% 10%;
     grid-template-areas: 
     "H H"
-    "P L"
-    "T T";
+    "P I"
+    "L L";
 }
 
-#naam {
+.naam {
     grid-area: H;
     text-align: center;
     color: white;
@@ -112,47 +116,61 @@ h1 {
 .links {
     grid-area: L;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
-    gap: 25px;
+    justify-content: space-around;
 }
 
-#website {
+.website {
     text-decoration: none;
     font-family: 'Bakbak One', cursive;
     font-size: 22px;
     color: #808080;
 }
 
-#website:hover {
+.website:hover {
     text-decoration: none;
     color: black;
 }
 
-#code {
+.code {
     text-decoration: none;
     font-family: 'Readex Pro', sans-serif;
     font-size: 22px;
     color: #808080;
 }
 
-#code::before {
+.code::before {
     content: "<";
 }
 
-#code::after {
+.code::after {
     content: ">";
 }
 
-#code:hover {
+.code:hover {
     text-decoration: none;
     color: black;
     font-weight: bold;
 }
 
+.progs {
+    grid-area: I;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+.progs img {
+    width: 28px;
+}
+
 #uitleg {
-    grid-area: T;
+    width: 55vw;
+    margin: 15px auto;
     font-size: 16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
