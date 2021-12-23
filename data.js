@@ -61,7 +61,7 @@ const assignments = [
         website: "https://knoppen-pagina.netlify.app/",
         github: "https://github.com/sandermeijer1972/API_fun",
         programs: ["html", "css", "javascript"],
-        text: "Bij deze opdracht moest je je data via een API binnen zien te krijgen. Omdat ik moeite had met deze stof, heb ik er uiteindelijk 10 gebruikt. Bij Winc Academy word je ook gestimuleerd om anderen te helpen met coderings-problemen. Op het moment dat ik met deze opdracht bezig was, hielp ik iemand met transities. Omdat die stof bij mij ook aardig weggezakt was, heb ik dat bij deze opdracht weer eens flink opgehaald en er een over-de-top pagina van gemaakt."
+        text: "Bij deze opdracht moest je je data via een API binnen zien te krijgen. Omdat ik moeite had met deze stof, heb ik er uiteindelijk 10 gebruikt. Bij Winc Academy word je ook gestimuleerd om anderen te helpen met coderings-problemen. Op het moment dat ik met deze opdracht bezig was, hielp ik iemand met transities. Omdat die stof bij mij ook aardig weggezakt was, heb ik dat bij deze opdracht weer eens flink opgehaald en er een over-de-top pagina van gemaakt. Door wat kleine dingetjes die bij Netlify niet goed gaan, werken niet alle knoppen even goed, dat is provisorisch opgelost, maar werkt niet altijd. Wellicht dat ik hiervoor in de toekomst nog iets aan kan veranderen."
     },
     {
         title: "To-Do List",
