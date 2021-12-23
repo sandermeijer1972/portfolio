@@ -66,7 +66,7 @@ const assignments = [
     {
         title: "To-Do List",
         image: "./images/todolist.jpg",
-        website: "https://sanders-opdrachten.netlify.app/index.html",
+        website: "https://takenpakket.netlify.app/index.html",
         github: "https://github.com/sandermeijer1972/Sander_Meijer-To_Do_List",
         programs: ["html", "css", "javascript"],
         text: "Bij deze opdracht moest je een RESTful-API clonen, zodat je alle handelingen lokaal kon fetchen. De bedoeling van deze opdracht was dat je liet zien dat je GET, POST, PUT en DELETE commando's kon geven aan een API. Omdat de 'server' dus lokaal draait, kon er hier geen website van gemaakt worden. Dus in dit geval heb ik een pagina met wat screenshots gemaakt."
