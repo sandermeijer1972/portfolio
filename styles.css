@@ -79,7 +79,7 @@ nav {
     grid-area: H;
     margin: 0 auto;
     width: 50vw;
-    max-width: 230px;
+    max-width: 256px;
     border: 3px solid #009900;
     border-radius: 5px;
 }
@@ -400,7 +400,7 @@ footer {
     }
     
     .photo {
-        width: 230px;
+        width: 256px;
         border: none;
     }
     
