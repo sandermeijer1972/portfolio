@@ -37,7 +37,7 @@ const assignments = [
         website: ["https://great-lakes-1000footers.netlify.app/", "https://great-lakes-1000footers-react.netlify.app"],
         github: ["https://github.com/sandermeijer1972/GreatLakes", "https://github.com/sandermeijer1972/greatlakesreact"],
         programs: ["html", "css", "javascript", "react"],
-        text: "Nadat ik een tijdje bezig was met React, heb ik voor mezelf nog een website gemaakt met 'gewoon' JavaScript. Wel weer even inkomen, want je moet hier echt stap voor stap te werk gaan om iets in de DOM te plaatsen. Het was mijn bedoeling dat ik deze zelfde website ook nog ging maken met React, en dat heb ik inmiddels gedaan. Dus je kunt de twee websites met elkaar vergelijken."
+        text: "Nadat ik een tijdje bezig was met React, heb ik voor mezelf nog een website gemaakt met 'gewoon' JavaScript. Wel weer even inkomen, want je moet hier echt stap voor stap te werk gaan om iets in de DOM te plaatsen. Het was mijn bedoeling dat ik deze zelfde website ook nog ging maken met React, en dat heb ik inmiddels gedaan. Dus je kunt de twee websites met elkaar vergelijken, waarbij er door dezelfde CSS uiterlijk niets anders zou moeten zijn, maar wat opbouw betreft natuurlijk wel."
     },
     {
         title: "Grote Database",
