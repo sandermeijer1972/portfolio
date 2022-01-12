@@ -251,7 +251,7 @@ footer {
 
     .links {
         flex-direction: column;
-        gap: 30px;
+        gap: 12px;
     }
 
     .website {        
