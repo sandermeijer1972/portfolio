@@ -56,6 +56,14 @@ const assignments = [
         text: "Vanuit Winc Academy werd je aangemoedigd om aan de jaarlijkse Advent of Code mee te doen. Ik ben er fanatiek aan begonnen, maar merkte al snel dat er wel heel veel tijd in ging zitten. Dus daarna mezelf de opdracht gegeven om tot uiterlijk 11 uur er mee bezig te zijn, en daarna 's avonds pas weer. Niet alle puzzels waren te doen, dus ik kan er nog verder aan coderen."
     },
     {
+        title: "HackerRank",
+        image: "./images/hacker.jpg",
+        website: ["https://www.hackerrank.com/"],
+        github: ["https://github.com/sandermeijer1972/HackerRank"],
+        programs: ["javascript"],
+        text: "Nu ik druk bezig ben met solliciteren, moet ik zo  nu en dan ook wat programmeertesten doen. Op de site van HackerRank kan je je skills een beetje bijhouden."
+    },
+    {
         title: "API-fun",
         image: "./images/apifun.jpg",
         website: ["https://knoppen-pagina.netlify.app/"],
@@ -102,6 +110,14 @@ const assignments = [
         github: ["https://github.com/sandermeijer1972/Sander_Meijer-Lil-Playlist"],
         programs: ["react", "css"],
         text: "Bij deze opdracht moest je ook gebruik maken van React-Router. Je mocht hier ook kiezen om de opdracht met redux te maken. Het principe daarvan begrijp ik wel, maar om het daadwerkelijk in elkaar te zetten, dat lukte niet. Dus het is bij React gebleven. Omdat het een opdracht over muziek was, was dit echt een hele leuke opdracht."
+    },
+    {
+        title: "Studenten Dashboard",
+        image: "./images/student.jpg",
+        website: ["https://sanders-student-dashboard.netlify.app/"],
+        github: ["https://github.com/sandermeijer1972/Sander_Meijer-Student_dashboard"],
+        programs: ["react", "css"],
+        text: "Dit was de eindopdracht van de Winc-opleiding. Je kreeg van een tiental studenten de cijfers die ze gaven aan alle opdrachten. Die cijfers waren de moeilijkheidsgraad en de fun-factor. Je moest dit per student in een grafiek laten zien, waarbij je kon kiezen welke van de cijfers je graag wilde zien. Bij het openen van de pagina moest een grafiek verschijnen van de gemiddelde cijfers die de studenten aan de opdrachten hadden meegegeven. Als extra optie mocht je bij de grafieken ook wat gegevens van de studenten vermelden. Met behulp van routing kreeg iedere student een eigen path. Als lolletje had ik ook voor mezelf de opdrachten cijfers gegeven en een eigen grafiek op de pagina gemaakt."
     },
     {
         title: "Portfolio",

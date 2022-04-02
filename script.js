@@ -99,37 +99,47 @@ advent.addEventListener("click", () => {
     showInfo(6);
 });
 
+const hacker = document.getElementById("hacker");
+hacker.addEventListener("click", () => {
+    showInfo(7);
+});
+
 const api = document.getElementById("api");
 api.addEventListener("click", () => {
-    showInfo(7);
+    showInfo(8);
 });
 
 const todo = document.getElementById("todo");
 todo.addEventListener("click", () => {
-    showInfo(8);
+    showInfo(9);
 });
 
 const grow = document.getElementById("grow");
 grow.addEventListener("click", () => {
-    showInfo(9);
+    showInfo(10);
 });
 
 const react = document.getElementById("react");
 react.addEventListener("click", () => {
-    showInfo(10);
+    showInfo(11);
 });
 
 const shop = document.getElementById("shop");
 shop.addEventListener("click", () => {
-    showInfo(11);
+    showInfo(12);
 });
 
 const playlist = document.getElementById("playlist");
 playlist.addEventListener("click", () => {
-    showInfo(12);
+    showInfo(13);
+});
+
+const student = document.getElementById("student");
+student.addEventListener("click", () => {
+    showInfo(14);
 });
 
 const portfolio = document.getElementById("portfolio");
 portfolio.addEventListener("click", () => {
-    showInfo(13);
+    showInfo(15);
 });
