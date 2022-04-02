@@ -300,7 +300,7 @@ footer {
     }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1020px) {
     body {
         background-color: #e6e6e6;        
     }   
