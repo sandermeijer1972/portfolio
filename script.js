@@ -60,8 +60,12 @@ const showInfo = (number) => {
         };
     });
     info.appendChild(newDivProgs);
-    explanation.innerText = assignments[number].text;
-    
+    const explanationText = assignments[number].text;
+    explanationText.forEach(text => {
+        const newDivText = document.createElement('div');
+        newDivText.innerText = text;
+        explanation.appendChild(newDivText);
+    });    
 };
 
 const flag = document.getElementById("flag");
