@@ -58,6 +58,19 @@ const assignments = [
         ]
     },
     {
+        title: "Luisterkind",
+        image: "./images/luisterkind.jpg",
+        website: ["https://mariekeonderwater.nl"],
+        github: ["https://github.com/sandermeijer1972/luisteren"],
+        programs: ["html", "css", "javascript", "sass"],
+        text: [
+            "Na het afronden van de opleiding kreeg ik van een vriendin meteen de vraag of ik voor haar een website wilde maken. Zij had zich zelf op laten leiden tot Luisterkind Werker, en daar hoort natuurlijk een website bij.",
+            "We hadden besproken wat er op de website moest komen, en daarna kon ik aan de slag. De stukken tekst en foto's voor op de site kwamen geleidelijk aan bij mij binnen, dus ik kon steeds een stukje verder gaan.",
+            "Bij het contactformulier liep ik even tegen een probleem aan, omdat ik dat alleen via Netlify had geleerd om de gegevens uit een formulier binnen te krijgen. Maar bij navraag op het Alumni-kanaal van Winc Academy kreeg ik nog wat tips van de leraren, en nu werkt het formulier dus ook prima.",
+            "Ik heb in de opleiding ook wat Sass geleerd, maar daarna eigenlijk nooit meer gebruikt. In vacatures wordt er toch best vaak naar gevraagd, dus ik heb me er nadien weer eens flink in verdiept, en deze website ook gemaakt met behulp van Sass."
+        ]
+    },
+    {
         title: "Grote Database",
         image: "./images/database.jpg",
         website: ["https://romantic-thompson-cbba2b.netlify.app/"],
@@ -70,27 +83,18 @@ const assignments = [
         ]
     },
     {
-        title: "Advent of Code",
-        image: "./images/advent.jpg",
-        website: ["https://adventofcode.com/2021"],
-        github: ["https://github.com/sandermeijer1972/Advent_of_Code_2021"],
+        title: "Advent of Code / HackerRank",
+        image: "./images/hacker.jpg",
+        website: ["https://adventofcode.com/2021", "https://www.hackerrank.com/"],
+        github: ["https://github.com/sandermeijer1972/Advent_of_Code_2021", "https://github.com/sandermeijer1972/HackerRank"],
         programs: ["javascript"],
         text: [
             "Vanuit Winc Academy werd je aangemoedigd om aan de jaarlijkse Advent of Code mee te doen. Ik ben er fanatiek aan begonnen, maar merkte al snel dat er wel heel veel tijd in ging zitten. Dus daarna mezelf de opdracht gegeven om tot uiterlijk 11 uur er mee bezig te zijn, en daarna 's avonds pas weer." ,
-            "Niet alle puzzels waren te doen, dus ik kan er nog verder aan coderen. Bovendien zaten er bij sommige puzzels zulke grote hoeveelheden data, dat mijn laptop dat niet aan kon. Wellicht dat dit met andere programmeertalen beter te doen is."
-        ]
-    },
-    {
-        title: "HackerRank",
-        image: "./images/hacker.jpg",
-        website: ["https://www.hackerrank.com/"],
-        github: ["https://github.com/sandermeijer1972/HackerRank"],
-        programs: ["javascript"],
-        text: [
+            "Niet alle puzzels waren te doen, dus ik kan er nog verder aan coderen. Bovendien zaten er bij sommige puzzels zulke grote hoeveelheden data, dat mijn laptop dat niet aan kon. Wellicht dat dit met andere programmeertalen beter te doen is.",
             "Nu ik druk bezig ben met solliciteren, moet ik zo nu en dan ook wat programmeertesten doen. Op de site van HackerRank kan je je skills een beetje bijhouden.",
             "Het is wel een beetje wennen, omdat sommige dingen net even iets anders gaan als ik gewend ben in Visual Studio Code. Dat heeft me al een keer in tijdnood doen komen, dus bijhouden is ook daarvoor al een must."
         ]
-    },
+    },    
     {
         title: "API-fun",
         image: "./images/apifun.jpg",

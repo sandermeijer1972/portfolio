@@ -40,6 +40,10 @@ const showInfo = (number) => {
             const newIcon = document.createElement('img');
             newIcon.src = "./images/jest.svg";
             newDivProgs.appendChild(newIcon);
+        } else if(item ==="sass") {
+            const newIcon = document.createElement('img');
+            newIcon.src = "./images/sass.png";
+            newDivProgs.appendChild(newIcon);
         } else {
             const newIcon = document.createElement('i');
             newIcon.classList.add("fab");
@@ -93,18 +97,18 @@ boats.addEventListener("click", () => {
     showInfo(4);
 });
 
+const listening = document.getElementById("listen");
+listening.addEventListener("click", () => {
+    showInfo(5);
+})
+
 const database = document.getElementById("database");
 database.addEventListener("click", () => {
-    showInfo(5);
+    showInfo(6);
 });
 
 const advent = document.getElementById("advent");
 advent.addEventListener("click", () => {
-    showInfo(6);
-});
-
-const hacker = document.getElementById("hacker");
-hacker.addEventListener("click", () => {
     showInfo(7);
 });
 
