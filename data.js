@@ -16,11 +16,10 @@ const assignments = [
         image: "./images/benno.jpg",
         website: ["https://benno-test-kankervaccin.netlify.app/"],
         github: ["https://github.com/sandermeijer1972/benno"],
-        programs: ["html", "css"],
+        programs: ["html", "css", "sass"],
         text: [
             "Onze hond doet mee aan een onderzoek naar een vaccin tegen kanker. Omdat we daar veel vragen over kregen (en nog steeds krijgen) heb ik daar een pagina voor gemaakt, met daarop het hele verhaal.", 
-            "Het is gemaakt met HTML en CSS, en zoals aangeleerd bij Winc Academy, mobile first.", 
-            "Ik heb aardig zitten klungelen om de foto's gelijkmatig te vergroten bij grotere schermgroottes, al heb ik daar later wel weer wat andere foefjes voor geleerd."
+            "Twee jaar nadat we mee zijn gaan doen aan het onderzoek zijn er weer ontwikkelingen, en heb ik naast de tekst ook het een en ander aangepast aan de styling. Zoals bij Winc Academy geleerd is de pagina mobile-first. Verder heb ik het volgens de BEM-principes opgebouwd en daarmee was het ook makkelijker om Sass te gebruiken bij de styling."
         ]
     },
     {
@@ -62,7 +61,7 @@ const assignments = [
         image: "./images/luisterkind.jpg",
         website: ["https://mariekeonderwater.nl"],
         github: ["https://github.com/sandermeijer1972/luisteren"],
-        programs: ["html", "css", "javascript", "sass"],
+        programs: ["html", "css", "sass", "javascript"],
         text: [
             "Na het afronden van de opleiding kreeg ik van een vriendin meteen de vraag of ik voor haar een website wilde maken. Zij had zich zelf op laten leiden tot Luisterkind Werker, en daar hoort natuurlijk een website bij.",
             "We hadden besproken wat er op de website moest komen, en daarna kon ik aan de slag. De stukken tekst en foto's voor op de site kwamen geleidelijk aan bij mij binnen, dus ik kon steeds een stukje verder gaan.",
