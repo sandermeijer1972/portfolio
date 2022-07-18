@@ -29,18 +29,20 @@ nav {
     grid-template-areas: 
     "ML MR"
     "MI MI";
-    padding: 5px;
+    padding: 0;
     gap: 5px;
 }
 
 .menu-left {
     grid-area: ML;
     text-align: center;
+    margin: 5px;
 }
 
 .menu-right {
     grid-area: MR;
     text-align: center;
+    margin: 5px;
 }
 
 .middle {
@@ -209,6 +211,7 @@ footer {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
+        margin-bottom: 0;
     }
 
     .menu-right {
@@ -216,6 +219,7 @@ footer {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
+        margin-top: 0;
     }
 
     .text {
@@ -324,7 +328,7 @@ footer {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        margin: 50px auto 0;
+        margin: 75px auto 130px;
         max-width: 1300px;
     }
     
@@ -383,24 +387,29 @@ footer {
     
     .middle {
         order: 2;
-        width: 35%;    
+        width: 35%;
+        transition-duration: 1s;
+        border: 5px solid black;
+        transform: translateY(30px);
+    }
+
+    .middle:hover {
+        transform: scale(2.9) translateY(60px);
     }
     
     #info {
-        margin-top: 20px;
-        padding: 10px;
-        border: 5px solid black;
+        padding: 10px;        
         background-color: #f2f2f2;
         display: grid;
-        grid-template: auto auto 1fr / 85% 15%;
+        grid-template: 1fr auto auto / 60% 40%;
         grid-template-areas: 
         "H H"
-        "P I"
-        "L L";
+        "P L"
+        "P I";
     }
     
     .photo {
-        width: 256px;
+        width: 120px;
         border: none;
     }
     
@@ -409,13 +418,13 @@ footer {
     }
     
     .links {  
-        flex-direction: row;      
+        flex-direction: column;      
         justify-content: space-around;
         gap: 0;
     }
     
     .website {        
-        font-size: 22px;
+        font-size: 12px;
         color: #808080;
     }
     
@@ -425,23 +434,28 @@ footer {
     }
     
     .code {        
-        font-size: 22px;
+        font-size: 12px;
         color: #808080;
     }    
         
     .progs {        
         flex-wrap: nowrap;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         justify-content: space-around;
+        font-size: 15px;
     }    
+
+    .progs img {
+        width: 14px;
+    }
     
     #explanation {
-        width: 75vw;
+        width: 90%;
         max-width: 975px;
-        margin: 50px auto;
+        margin: 5px auto;
         padding: 10px;
-        font-size: 20px;
+        font-size: 7px;
         color: #f2f2f2;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         background-color: #4d4d4d;
