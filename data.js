@@ -176,7 +176,7 @@ const assignments = [
     },
     {
         title: "Portfolio",
-        image: "./images/portfolio.jpg",
+        image: "./images/portfolio3.jpg",
         website: ["https://sandermeijer.netlify.app/"],
         github: ["https://github.com/sandermeijer1972/portfolio"],
         programs: ["html", "css", "javascript"],
