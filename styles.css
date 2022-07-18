@@ -455,12 +455,16 @@ footer {
         max-width: 975px;
         margin: 5px auto;
         padding: 10px;
-        font-size: 7px;
+        font-size: 6px;
         color: #f2f2f2;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         background-color: #4d4d4d;
         border: 5px double white;
         border-radius: 20px; 
+    }
+
+    #explanation div {
+        margin-bottom: 4px;
     }
     
     footer {
