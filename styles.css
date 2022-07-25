@@ -391,11 +391,11 @@ footer {
         transition-duration: 1s;
         border: 5px solid black;
         transform: translateY(30px);
+        z-index: 10;
     }
 
     .middle:hover {
-        transform: scale(2.9) translateY(60px);
-        z-index: 10;
+        transform: scale(2.9) translateY(60px);        
     }
     
     #info {
