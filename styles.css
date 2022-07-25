@@ -395,7 +395,7 @@ footer {
 
     .middle:hover {
         transform: scale(2.9) translateY(60px);
-        z-index: 1;
+        z-index: 10;
     }
     
     #info {
