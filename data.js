@@ -70,6 +70,39 @@ const assignments = [
         ]
     },
     {
+        title: "Spelletjes",
+        image: "./images/rock-pap-scis.jpg",
+        website: ["https://naughty-euclid-454cd7.netlify.app/", "https://sanders-rock-paper-scissors.netlify.app/"],
+        github: ["https://github.com/sandermeijer1972/opdr_guess_the_number", "https://github.com/sandermeijer1972/rock-paper-scissors"],
+        programs: ["html", "css", "javascript"],
+        text: [
+            "Een van de opdrachten voor de opleiding was een Guess the Number game te maken. Dit was voor de eerste keer dat je je javascript moest koppelen aan een HTML-pagina. Dat was nog een hele operatie. Maar toen het kwartje eenmaal viel, was het alleen een kwestie van het spel goed uit te schrijven.",
+            "Bij een test-dag voor een sollicitatie moest je een Paper-Rock-Scissor spel maken. Dit moest met een bepaald programma gebeuren, maar het idee van 'wat als' komt natuurlijk wel overeen met je javascript. Thuis heb ik er dus ook een javascript versie van gemaakt."
+        ]
+    },
+    {
+        title: "Advent of Code",
+        image: "./images/advent.jpg",
+        website: ["https://adventofcode.com/2021", "https://adventofcode.com/2022"],
+        github: ["https://github.com/sandermeijer1972/Advent_of_Code_2021", "https://github.com/sandermeijer1972/Advent_of_Code_2022"],
+        programs: ["javascript"],
+        text: [
+            "Vanuit Winc Academy werd je aangemoedigd om aan de jaarlijkse Advent of Code mee te doen. Ik ben er fanatiek aan begonnen, maar merkte al snel dat er wel heel veel tijd in ging zitten. Dus daarna mezelf de opdracht gegeven om tot uiterlijk 11 uur er mee bezig te zijn, en daarna 's avonds pas weer." ,
+            "Niet alle puzzels waren te doen, dus ik kan er nog verder aan coderen. Bovendien zaten er bij sommige puzzels zulke grote hoeveelheden data, dat mijn laptop dat niet aan kon. Wellicht dat dit met andere programmeertalen beter te doen is.",            
+        ]
+    },
+    {
+        title: "HackerRank / CodeWars",
+        image: "./images/hacker.jpg",
+        website: ["https://www.hackerrank.com/", "https://www.codewars.com/dashboard"],
+        github: ["https://github.com/sandermeijer1972/HackerRank", "https://github.com/sandermeijer1972/CodeWars"],
+        programs: ["jacascript"],
+        text: [
+            "Nu ik druk bezig ben met solliciteren, moet ik zo nu en dan ook wat programmeertesten doen. Op de websites van HackerRank en CodeWars kan je je skills een beetje bijhouden.",
+            "Het is wel een beetje wennen, omdat sommige dingen net even iets anders gaan als ik gewend ben in Visual Studio Code. Dat heeft me al een keer in tijdnood doen komen, dus bijhouden is ook daarvoor al een must."
+        ]
+    },
+    {
         title: "Grote Database",
         image: "./images/database.jpg",
         website: ["https://romantic-thompson-cbba2b.netlify.app/"],
@@ -79,19 +112,6 @@ const assignments = [
             "Bij deze opdracht zat een hele grote database. Voor elke sub-opdracht moest je gaan filteren om de juiste gegevens door middel van DOM-manipulatie op de pagina te krijgen.", 
             "Je leerde hier veel over array-methods, en dan met name .map, .filter en .reduce.",
             "In eerste instantie hoefde je niet alle sub-opdrachten te maken, maar uiteindelijk heb ik ze toch allemaal gedaan."
-        ]
-    },
-    {
-        title: "Advent of Code / HackerRank / CodeWars",
-        image: "./images/hacker.jpg",
-        website: ["https://adventofcode.com/2021", "https://www.hackerrank.com/", "https://www.codewars.com/dashboard"],
-        github: ["https://github.com/sandermeijer1972/Advent_of_Code_2021", "https://github.com/sandermeijer1972/HackerRank", "https://github.com/sandermeijer1972/CodeWars"],
-        programs: ["javascript"],
-        text: [
-            "Vanuit Winc Academy werd je aangemoedigd om aan de jaarlijkse Advent of Code mee te doen. Ik ben er fanatiek aan begonnen, maar merkte al snel dat er wel heel veel tijd in ging zitten. Dus daarna mezelf de opdracht gegeven om tot uiterlijk 11 uur er mee bezig te zijn, en daarna 's avonds pas weer." ,
-            "Niet alle puzzels waren te doen, dus ik kan er nog verder aan coderen. Bovendien zaten er bij sommige puzzels zulke grote hoeveelheden data, dat mijn laptop dat niet aan kon. Wellicht dat dit met andere programmeertalen beter te doen is.",
-            "Nu ik druk bezig ben met solliciteren, moet ik zo nu en dan ook wat programmeertesten doen. Op de websites van HackerRank en CodeWars kan je je skills een beetje bijhouden.",
-            "Het is wel een beetje wennen, omdat sommige dingen net even iets anders gaan als ik gewend ben in Visual Studio Code. Dat heeft me al een keer in tijdnood doen komen, dus bijhouden is ook daarvoor al een must."
         ]
     },    
     {

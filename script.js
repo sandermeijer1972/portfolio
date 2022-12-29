@@ -102,8 +102,8 @@ listening.addEventListener("click", () => {
     showInfo(5);
 })
 
-const database = document.getElementById("database");
-database.addEventListener("click", () => {
+const games = document.getElementById("games");
+games.addEventListener("click", () => {
     showInfo(6);
 });
 
@@ -112,42 +112,52 @@ advent.addEventListener("click", () => {
     showInfo(7);
 });
 
+const challenge = document.getElementById("challenge");
+challenge.addEventListener("click", () => {
+    showInfo(8);
+});
+
+const database = document.getElementById("database");
+database.addEventListener("click", () => {
+    showInfo(9);
+});
+
 const api = document.getElementById("api");
 api.addEventListener("click", () => {
-    showInfo(8);
+    showInfo(10);
 });
 
 const todo = document.getElementById("todo");
 todo.addEventListener("click", () => {
-    showInfo(9);
+    showInfo(11);
 });
 
 const grow = document.getElementById("grow");
 grow.addEventListener("click", () => {
-    showInfo(10);
+    showInfo(12);
 });
 
 const react = document.getElementById("react");
 react.addEventListener("click", () => {
-    showInfo(11);
+    showInfo(13);
 });
 
 const shop = document.getElementById("shop");
 shop.addEventListener("click", () => {
-    showInfo(12);
+    showInfo(14);
 });
 
 const playlist = document.getElementById("playlist");
 playlist.addEventListener("click", () => {
-    showInfo(13);
+    showInfo(15);
 });
 
 const student = document.getElementById("student");
 student.addEventListener("click", () => {
-    showInfo(14);
+    showInfo(16);
 });
 
 const portfolio = document.getElementById("portfolio");
 portfolio.addEventListener("click", () => {
-    showInfo(15);
+    showInfo(17);
 });
