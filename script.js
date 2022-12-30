@@ -20,7 +20,7 @@ const showInfo = (number) => {
     for (i=0; i<assignments[number].website.length; i++) {
         const newAWebsite = document.createElement('a');
         newAWebsite.classList.add("website");
-        newAWebsite.innerText = "website";
+        newAWebsite.innerText = assignments[number].webname[i];
         newAWebsite.target = "_blank";
         newAWebsite.href = assignments[number].website[i];
         newDivLinks.appendChild(newAWebsite);

@@ -2,6 +2,7 @@ const assignments = [
     {
         title: "Hang de vlag uit",
         image: "./images/vlaggen.jpg",
+        webname: ["website"],
         website: ["https://quizzical-lovelace-909ccf.netlify.app/"],
         github: ["https://github.com/sandermeijer1972/Sander_Meijer-Hang_De_Vlag_Uit"],
         programs: ["html", "css"],
@@ -14,6 +15,7 @@ const assignments = [
     {
         title: "Benno het Bernertje",
         image: "./images/benno.jpg",
+        webname: ["website"],
         website: ["https://benno-test-kankervaccin.netlify.app/"],
         github: ["https://github.com/sandermeijer1972/benno"],
         programs: ["html", "css", "sass"],
@@ -25,6 +27,7 @@ const assignments = [
     {
         title: "Kleurentoggle",
         image: "./images/kleurentoggle.jpg",
+        webname: ["website"],
         website: ["https://hungry-ptolemy-2e50ff.netlify.app/"],
         github: ["https://github.com/sandermeijer1972/Sander_Meijer-Kleurentoggle"],
         programs: ["html", "css", "javascript"],
@@ -36,6 +39,7 @@ const assignments = [
     {
         title: "Filmzoeker",
         image: "./images/filmzoeker.jpg",
+        webname: ["website"],
         website: ["https://admiring-goldberg-8a03d3.netlify.app/"],
         github: ["https://github.com/sandermeijer1972/Sander_Meijer-filmzoeker"],
         programs: ["html", "css", "javascript"],
@@ -47,6 +51,7 @@ const assignments = [
     {
         title: "1000-footers",
         image: "./images/greatlakes.jpg",
+        webname: ["'gewone' website", "react-website"],
         website: ["https://great-lakes-1000footers.netlify.app/", "https://great-lakes-1000footers-react.netlify.app"],
         github: ["https://github.com/sandermeijer1972/GreatLakes", "https://github.com/sandermeijer1972/greatlakesreact"],
         programs: ["html", "css", "javascript", "react"],
@@ -59,6 +64,7 @@ const assignments = [
     {
         title: "Luisterkind",
         image: "./images/luisterkind.jpg",
+        webname: ["website"],
         website: ["https://mariekeonderwater.nl"],
         github: ["https://github.com/sandermeijer1972/luisteren"],
         programs: ["html", "css", "sass", "javascript"],
@@ -72,17 +78,19 @@ const assignments = [
     {
         title: "Spelletjes",
         image: "./images/rock-pap-scis.jpg",
+        webname: ["guess the number", "rock-paper-scissors"],
         website: ["https://naughty-euclid-454cd7.netlify.app/", "https://sanders-rock-paper-scissors.netlify.app/"],
         github: ["https://github.com/sandermeijer1972/opdr_guess_the_number", "https://github.com/sandermeijer1972/rock-paper-scissors"],
         programs: ["html", "css", "javascript"],
         text: [
             "Een van de opdrachten voor de opleiding was een Guess the Number game te maken. Dit was voor de eerste keer dat je je javascript moest koppelen aan een HTML-pagina. Dat was nog een hele operatie. Maar toen het kwartje eenmaal viel, was het alleen een kwestie van het spel goed uit te schrijven.",
-            "Bij een test-dag voor een sollicitatie moest je een Paper-Rock-Scissor spel maken. Dit moest met een bepaald programma gebeuren, maar het idee van 'wat als' komt natuurlijk wel overeen met je javascript. Thuis heb ik er dus ook een javascript versie van gemaakt."
+            "Bij een test-dag voor een sollicitatie moest je een Rock-Paper-Scissors spel maken. Dit moest met een bepaald programma gebeuren, maar het idee van 'wat als' komt natuurlijk wel overeen met je javascript. Thuis heb ik er dus ook een javascript versie van gemaakt."
         ]
     },
     {
         title: "Advent of Code",
         image: "./images/advent.jpg",
+        webname: ["2021", "2022"],
         website: ["https://adventofcode.com/2021", "https://adventofcode.com/2022"],
         github: ["https://github.com/sandermeijer1972/Advent_of_Code_2021", "https://github.com/sandermeijer1972/Advent_of_Code_2022"],
         programs: ["javascript"],
@@ -94,6 +102,7 @@ const assignments = [
     {
         title: "HackerRank / CodeWars",
         image: "./images/hacker.jpg",
+        webname: ["HackerRank", "CodeWars"],
         website: ["https://www.hackerrank.com/", "https://www.codewars.com/dashboard"],
         github: ["https://github.com/sandermeijer1972/HackerRank", "https://github.com/sandermeijer1972/CodeWars"],
         programs: ["jacascript"],
@@ -105,6 +114,7 @@ const assignments = [
     {
         title: "Grote Database",
         image: "./images/database.jpg",
+        webname: ["website"],
         website: ["https://romantic-thompson-cbba2b.netlify.app/"],
         github: ["https://github.com/sandermeijer1972/grote_arrays"],
         programs: ["html", "css", "javascript"],
@@ -117,6 +127,7 @@ const assignments = [
     {
         title: "API-fun",
         image: "./images/apifun.jpg",
+        webname: ["website"],
         website: ["https://knoppen-pagina.netlify.app/"],
         github: ["https://github.com/sandermeijer1972/API_fun"],
         programs: ["html", "css", "javascript"],
@@ -129,6 +140,7 @@ const assignments = [
     {
         title: "To-Do List",
         image: "./images/todolist.jpg",
+        webname: ["website"],
         website: ["https://takenpakket.netlify.app/index.html"],
         github: ["https://github.com/sandermeijer1972/Sander_Meijer-To_Do_List"],
         programs: ["html", "css", "javascript"],
@@ -140,6 +152,7 @@ const assignments = [
     {
         title: "TDD Groentetuin",
         image: "./images/groentetuin.jpg",
+        webname: ["website"],
         website: ["https://sanders-groentetuin.netlify.app/"],
         github: ["https://github.com/sandermeijer1972/Sander_Meijer-TDD_groentetuin"],
         programs: ["html", "css", "javascript", "jest"],
@@ -151,6 +164,7 @@ const assignments = [
     {
         title: "React",
         image: "./images/react.jpg",
+        webname: ["website"],
         website: ["https://elegant-galileo-988d19.netlify.app/"],
         github: ["https://github.com/sandermeijer1972/react-module-8/tree/master/src/opdrachten/combi"],
         programs: ["react", "css"],
@@ -162,6 +176,7 @@ const assignments = [
     {
         title: "Boodschappenlijstje",
         image: "./images/boodschappen.jpg",
+        webname: ["website"],
         website: ["https://boodschappendoen.netlify.app/"],
         github: ["https://github.com/sandermeijer1972/react-module-8/tree/master/src/opdrachten/boodschappenlijst"],
         programs: ["react", "css"],
@@ -173,6 +188,7 @@ const assignments = [
     {
         title: "Playlist",
         image: "./images/playlist.jpg",
+        webname: ["website"],
         website: ["https://sanders-playlist.netlify.app/"],
         github: ["https://github.com/sandermeijer1972/Sander_Meijer-Lil-Playlist"],
         programs: ["react", "css"],
@@ -185,6 +201,7 @@ const assignments = [
     {
         title: "Studenten Dashboard",
         image: "./images/student.jpg",
+        webname: ["website"],
         website: ["https://sanders-student-dashboard.netlify.app/"],
         github: ["https://github.com/sandermeijer1972/Sander_Meijer-Student_dashboard"],
         programs: ["react", "css"],
@@ -197,6 +214,7 @@ const assignments = [
     {
         title: "Portfolio",
         image: "./images/portfolio3.jpg",
+        webname: ["website"],
         website: ["https://sandermeijer.netlify.app/"],
         github: ["https://github.com/sandermeijer1972/portfolio"],
         programs: ["html", "css", "javascript"],
