@@ -388,6 +388,7 @@ footer {
     .middle {
         order: 2;
         width: 35%;
+        height: 90%;
         transition-duration: 1s;
         border: 5px solid black;
         transform: translateY(30px);
